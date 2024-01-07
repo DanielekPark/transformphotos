@@ -2,24 +2,24 @@
   Photo Overlay Transitions
 ==================================== */
 
-.photo-overlay {
+/* .photo-overlay {
   opacity: 0;
   transition: opacity 0.5s;
 }
 .photo-overlay:hover {
   opacity: 1;
-}
+} */
 
 /* ================================= 
   Button Transitions
 ==================================== */
-.button {
+/* .button {
   transition: background 0.3s, color 0.3s;
 }
 .button:hover {
   color: #fff;
   background: #4a89ca;
-}
+} */
 
 /* ================================= 
   Image Transforms & Transitions
@@ -49,15 +49,15 @@ img:hover {
 /* moves the photo to the bottom right */
 
 /* -- Row 2 --------- */
-.photo img {
+/* .photo img {
   transform-origin: bottom right;
 }
 .photo:hover img {
   transform: scale(1.2);
-}
+} */
 
 /* -- Row 3 --------- */
-.slide .photo-overlay,
+/* .slide .photo-overlay,
 .slide img {
   transition: transform 0.6s ease-in-out;
 }
@@ -72,10 +72,10 @@ img:hover {
 
 .slide:hover img {
   transform: translateX(100%);
-}
+} */
 
 /* -- Logo ---------- */
-.logo:hover {
+/* .logo:hover {
   transform: rotate(-25deg);
-}
+} */
 /* look at cubicbezier.com easing effects*/
