@@ -1,15 +1,14 @@
 /* ================================= 
   Button Transitions
 ==================================== */
-
-.button {
+/* transition duration is a required property needed for transitions */
+/* .button {
   color: #4a89ca;
   border: 2px solid;
-  transition-duration: 1s;
+  transition-duration: 1s; 
   transition-property: background, border-radius, color;
 }
 
-/* transition duration is a required property needed for transitions */
 .button:hover {
   color: #fff;
   background-color: #4a89ca;
@@ -18,7 +17,7 @@
 
 .button:active {
   background-color: #a33830;
-}
+} */
 
 /* ================================= 
   Photo Overlay Transitions

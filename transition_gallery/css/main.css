@@ -90,6 +90,23 @@ p {
 	padding: 10px 0;
 	margin: auto;
 }
+/* CSS transition */
+.button {
+	color: #4a89ca;
+	border: 2px solid;
+	transition-duration: 1s; /* transition duration is a required property needed for transitions */
+	transition-property: background, border-radius, color;
+  }
+  
+  .button:hover {
+	color: #fff;
+	background-color: #4a89ca;
+	border-radius: 1em;
+  }
+  
+  .button:active {
+	background-color: #a33830;
+  }
 
 /* ---- Photo Overlay ---- */
 .photo-overlay {
@@ -107,6 +124,14 @@ p {
 	align-items: center;
 	background: rgba(0,0,0, .65);
 }
+/* CSS transition */
+.photo-overlay {
+	transition-duration: 1s;
+  }
+  
+  .photo-overlay:hover {
+	opacity: 0;
+  }
 /* ---- Float clearfix ---- */
 
 .clearfix::after {
